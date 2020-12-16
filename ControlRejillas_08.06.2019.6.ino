@@ -26,7 +26,7 @@ WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
 //NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 0, 60000);
 
-const char* ssid = "Unifi";
+const char* ssid = "Unifi"; // Esta es la antena Wifi
 const char* password = "tel3dixi029574unifi";
 
 #define BLYNK_PRINT Serial    // Comment this out to disable prints and save space
